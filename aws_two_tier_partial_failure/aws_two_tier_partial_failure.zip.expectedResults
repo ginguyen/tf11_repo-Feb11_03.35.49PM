@@ -1,0 +1,17 @@
+{
+    "meta": {
+        "matchedPoliciesSummary": {
+            "high": 0,
+            "medium": 0,
+            "low": 0
+        },
+        "errorDetails": [
+            {
+                "code": "BAD_REQUEST",
+                "detail": "Error: (./aws_two_tier_partial_failure/bad_file) Computed attribute cannot be set\n\n  on bad_file.tf line 7, in resource \"aws_vpc\" \"main2\":\n   7:   ipv6_cidr_block = \"10.0.0.0/16\"\n\n\n",
+                "source": "./aws_two_tier_partial_failure/bad_file"
+            }
+        ]
+    },
+    "data": []
+}
