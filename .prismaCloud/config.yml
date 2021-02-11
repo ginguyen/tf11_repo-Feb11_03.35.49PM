@@ -1,5 +1,6 @@
 
 template_type: TF
+terraform_version: 0.11
 
 tags:
 - Team:Shift_Left_tf11
